@@ -12,6 +12,7 @@ public interface UserMapper {
     @Select("select count(*) from user")
     long count();
 
+    //提交第一次
     // @Select("select * from user order by id limit #{beginIndex},#{pageSize}")
     //List<User> selectAll(@Param("beginIndex") int beginIndex,@Param("pageSize") int pageSize);
 
